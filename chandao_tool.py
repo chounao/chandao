@@ -60,7 +60,7 @@ class chanDao():
                 "product": 10,"module": module_code,"project": None,'openedBuild[]': 'trunk','assignedTo': 'xiepengfei','deadline': self.time_data,'type': 'codeerror','os': 'all','browser': 'chrome',
                 'pri': pri_code,'severity': severity_code,'title': title,'task': 0,'oldTaskID': 0,'status': 'active','uid': '62400e8cec479','case': 0,'caseVersion': 0,'result': 0,'testtask': 0,
             }
-
+            #a
             print(self.data)
             self.add_url = 'http://chandao.rantron.biz:8083/bug-create-10-0-moduleID=0.html'
 
